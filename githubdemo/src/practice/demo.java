@@ -1,10 +1,12 @@
 package practice;
 
+import org.testng.annotations.Test;
+
 public class demo {
 
 	
-	
-	public static void main(String[] s)
+	@Test
+	public void display()
 	{
 		
 		System.out.println("mohan");
